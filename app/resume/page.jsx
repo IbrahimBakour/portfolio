@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "about me",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+    "With a strong foundation in both frontend and backend development, I specialize in creating responsive and efficient web applications.",
   info: [
     {
       fieldName: "Name",
@@ -53,7 +53,7 @@ const experience = {
   icon: "/public/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+    "Crafting Dynamic and Scalable Web Solutions, working on projects that range from dynamic single-page applications to comprehensive web solutions.",
   items: [
     {
       company: "Tech Solutions Inc.",
@@ -87,7 +87,7 @@ const education = {
   icon: "/public/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+    "I have pursued a comprehensive education focused on computer science and web technologies.",
   items: [
     {
       institution: "Current Education",
@@ -115,7 +115,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+    "I possess a diverse skill set in both frontend and backend development, including proficiency in:",
   skillList: [
     {
       icon: <FaHtml5 />,

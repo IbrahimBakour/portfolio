@@ -8,25 +8,25 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+      "I offer professional web development services focused on creating responsive and efficient applications.",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+      "I specialize in designing user interfaces that are both visually appealing and easy to navigate.",
   },
   {
     num: "03",
     title: "Profile Design",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+      "I offer customized profile design services to help you establish a compelling online presence.",
   },
   {
     num: "04",
     title: "SEO",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nam eius similique nesciunt modi laboriosam ullam quis.",
+      "Elevate your online presence. I specialize in keyword research, on-page optimization, and link-building.",
   },
 ];
 

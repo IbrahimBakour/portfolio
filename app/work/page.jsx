@@ -1,8 +1,8 @@
 "use client";
 
-import img1 from "@/assets/work/thumb1.png";
-import img2 from "@/assets/work/thumb2.png";
-import img3 from "@/assets/work/thumb3.png";
+import img1 from "@/assets/work/photo1.png";
+import img2 from "@/assets/work/photo2.png";
+import img3 from "@/assets/work/photo3.png";
 
 import { motion } from "framer-motion";
 import React, { useState } from "react";
@@ -26,10 +26,10 @@ const projects = [
     category: "frontend",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eaque distinctio magnam aliquid doloribus expedita.",
+      "Developed a dynamic and responsive user interface using core web technologies.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: img1,
-    live: "",
+    live: "https://allonalmomyaz.com/",
     github: "",
   },
   {
@@ -37,10 +37,10 @@ const projects = [
     category: "fullstack",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eaque distinctio magnam aliquid doloribus expedita.",
+      "Built a comprehensive web application with server-side rendering and API integration.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: img2,
-    live: "",
+    live: "https://ibrahimportfolio-six.vercel.app/",
     github: "",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     category: "frontend",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eaque distinctio magnam aliquid doloribus expedita.",
+      "Created a modern, responsive web application with advanced styling and component-based architecture.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: img3,
     live: "",
@@ -103,7 +103,7 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={""}>
+                <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -147,6 +147,7 @@ const Work = () => {
                       {/* image */}
                       <div className="relative w-full h-full">
                         <Image
+                          quality={100}
                           src={project.image}
                           fill
                           className="object-cover"
