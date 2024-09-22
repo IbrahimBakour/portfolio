@@ -4,7 +4,7 @@ import { JetBrains_Mono } from "next/font/google";
 import Header from "@/components/ui/Header";
 import PageTransition from "@/components/ui/PageTransition";
 import StairTransition from "@/components/ui/StairTransition";
-import { SpeedInsights } from "@vercel/speed-insights";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
