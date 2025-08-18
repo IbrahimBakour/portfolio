@@ -21,16 +21,17 @@ const Home = () => {
               navigation.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <a href="/FullStack_Ibrahim_Bakour.pdf" download>
+              <a href="/FullStack_Ibrahim_Bakour.pdf" download>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+
                   <FiDownload className="text-xl" />
-                </a>
-              </Button>
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
