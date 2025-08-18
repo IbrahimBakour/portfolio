@@ -1,8 +1,8 @@
 "use client";
 
-import img1 from "@/assets/work/photo1.png";
-import img2 from "@/assets/work/photo2.png";
-import img3 from "@/assets/work/photo3.png";
+import img1 from "@/assets/work/Care-pulse.png";
+import img2 from "@/assets/work/Auth.png";
+import img3 from "@/assets/work/Print.png";
 
 import { motion } from "framer-motion";
 import React, { useState } from "react";
@@ -23,36 +23,40 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Full-stack",
     title: "project 1",
     description:
-      "Developed a dynamic and responsive user interface using core web technologies.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Developed a healthcare platform that streamlines patient registration, appointment scheduling, and medical records.",
+    stack: [{ name: "Next.js" }, { name: "Typescript" }, { name: "ShadCn" }],
     image: img1,
-    live: "https://allonalmomyaz.com/",
-    github: "",
+    live: "https://carepulse-six-rouge.vercel.app/",
+    github: "https://github.com/IbrahimBakour/carepulse",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Full-stack",
     title: "project 2",
     description:
-      "Built a comprehensive web application with server-side rendering and API integration.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Built advanced MERN Authentication page with Login, Sign up, Email Verification, Password Recovery, and Welcome Emails Clear Endpoint for each API, integrated with MongoDB and Mailtrap.",
+    stack: [{ name: "MongoDB" }, { name: "React.js" }, { name: "Node.js" }],
     image: img2,
-    live: "https://ibrahimportfolio-six.vercel.app/",
-    github: "",
+    live: "https://mern-auth-yemw.onrender.com/login",
+    github: "https://github.com/IbrahimBakour/MERN-Auth",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Frontend",
     title: "project 3",
     description:
       "Created a modern, responsive web application with advanced styling and component-based architecture.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    stack: [
+      { name: "Html" },
+      { name: "Bootstrab.css" },
+      { name: "Javascript" },
+    ],
     image: img3,
-    live: "",
-    github: "",
+    live: "https://printriyadh.com",
+    github: "https://github.com/IbrahimBakour/Press",
   },
 ];
 

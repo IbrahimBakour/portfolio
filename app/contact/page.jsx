@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Send } from "./send";
 
 import {
   Select,
@@ -34,6 +35,7 @@ const info = [
     description: "Malaysia, Kuala Lumpur",
   },
 ];
+
 const Contact = () => {
   return (
     <motion.section
@@ -56,10 +58,26 @@ const Contact = () => {
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input
+                  type="firstname"
+                  placeholder="Firstname"
+                  autoComplete="off"
+                />
+                <Input
+                  type="lastname"
+                  placeholder="Lastname"
+                  autoComplete="off"
+                />
+                <Input
+                  type="email"
+                  placeholder="Email address"
+                  autoComplete="off"
+                />
+                <Input
+                  type="phone"
+                  placeholder="Phone number"
+                  autoComplete="off"
+                />
               </div>
               {/* select */}
               <Select>
@@ -79,9 +97,10 @@ const Contact = () => {
               <Textarea
                 className="h-[200px]"
                 placeholder="Type your message here."
+                autoComplete="off"
               />
               {/* btn */}
-              <Button size="md" className="max-w-40">
+              <Button size="md" className="max-w-40" formAction={Send}>
                 Send message
               </Button>
             </form>
